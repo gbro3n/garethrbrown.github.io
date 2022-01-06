@@ -2,7 +2,7 @@
 ---
 public: true
 layout: post
-title: "Uploading Directly to AWS S3 from the Client in JavaScript, .NET Core, C#"
+title: "Uploading Directly to AWS S3 from the Client in JavaScript / .NET Core / C&#35"
 date: 2022-01-06 16:00 +0000
 categories: AWS S3 [.NET Core] C#
 ---
