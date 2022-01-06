@@ -1,10 +1,9 @@
-
 ---
 public: true
 layout: post
-title: "Uploading Directly to AWS S3 from the Client in JavaScript / .NET Core / C&#35"
+title: "Uploading Directly to AWS S3 from the Client (JavaScript / .NET Core / C#)"
 date: 2022-01-06 16:00 +0000
-categories: AWS S3 [.NET Core] C#
+tags: aws s3 javascript c# 
 ---
 
 ## Introduction
@@ -12,7 +11,7 @@ The aim of this post is to demonstrate how you can upload files directly from a 
 
 Reference documentation from AWS:
 
-https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-directly-from-a-web-or-mobile-application/
+[https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-directly-from-a-web-or-mobile-application/](https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-directly-from-a-web-or-mobile-application/)
 
 ## Example Code
 

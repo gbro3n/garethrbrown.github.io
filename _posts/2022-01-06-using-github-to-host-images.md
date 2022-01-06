@@ -3,7 +3,7 @@ public: true
 layout: post
 title: "Using GitHub to Host Images"
 date: 2022-01-06 12:53 +0000
-categories: github, [image hosting], 
+tags: github image-hosting 
 ---
 
 For simple image hosting scenarios, you can host images directly out of a public GitHub respository by following these steps:

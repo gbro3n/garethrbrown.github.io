@@ -3,7 +3,7 @@ public: true
 layout: post
 title: "A Custom Workflow to Publish from Obsidian to Blot.im"
 date: 2022-01-06 08:17:01 +0000
-categories: jekyll update
+tags: obsidian markdown blogging
 ---
 
 This is the first post to this blog using a custom workflow that uses:
