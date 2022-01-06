@@ -102,7 +102,7 @@ public async Task<ActionResult<object>> GetS3PresignedUploadUrlAsync(string file
 }
 ```
 
-Here is the HTML and JavaScript to test the upload. This has been adapted from the example code provided in the AWS to work with the above controller and service code, passing the filename to the API endpoint so that this is included in the presigned URL (and the resulting file in our bucket get's the file name we want) Also, the restiction on file extension has been removed.
+Here is the HTML and JavaScript to test the upload. This has sample code has been adapted from the example code provided in the AWS documentation to work with the above controller and service code, passing the filename to the API endpoint so that this is included in the presigned URL (and the resulting file in our bucket get's the file name we want) Also, the restiction on file extension has been removed.
 
 ```html
 <!DOCTYPE html>
@@ -225,3 +225,42 @@ Here is the HTML and JavaScript to test the upload. This has been adapted from t
   </body>
 </html>
 ```
+
+## Creating and Configuring the S3 Bucket
+
+You can create the bucket with default options in the AWS S3 console, and then set CORS options as required. A permissive CORS policy looks like this. You will want to restrict the permissions based on your requirements.
+
+```json
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "HEAD",
+            "GET",
+            "PUT",
+            "POST",
+            "DELETE"
+        ],
+        "AllowedOrigins": [
+            "*"
+        ],
+        "ExposeHeaders": [],
+        "MaxAgeSeconds": 3000
+    }
+]
+```
+
+![](/assets/Pasted%20image%2020220106161055.png)
+
+## The Resulting Upload Page
+Running the app locally, I have served this page from `http://localhost:5000/upload.html` by putting the `.html` file in the `wwwroot` folder of my API. We now have a basic test harness
+
+![](/assets/Pasted%20image%2020220106160712.png)
+
+If we look in the AWS S3 console, we can see that we have a .jpg file that we can download to verify the upload.
+
+![](/assets/Pasted%20image%2020220106160905.png)
+
+And that's it - we have uploaded a file directly from our client to AWS S3 using pre-signed URLs.
