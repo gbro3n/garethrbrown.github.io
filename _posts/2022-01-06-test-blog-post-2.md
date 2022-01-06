@@ -1,9 +1,9 @@
 ---
 public: true
 layout: post
-title: "Post Title"
+title: "A Test Post About A Cat"
 date: 2022-01-06 10:21 +0000
-categories: tags
+categories: cats
 ---
 
 This is a test post
