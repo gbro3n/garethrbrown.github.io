@@ -3,7 +3,7 @@ public: true
 layout: post
 title: "How to create a deep copy of an object in JavaScript/TypeScript"
 date: 2021-02-25 00:00 +0000
-tags: html net-core
+tags: javascript typescript
 ---
 
 If you already know the difference between a deep and shallow copy of an object, then you don’t need to read the [very good but quite long articles](https://medium.com/@manjuladube/understanding-deep-and-shallow-copy-in-javascript-13438bad941c) I got from my Google search on the most straight forward way to create a deep copy of an object in JavaScript/TypeScript.

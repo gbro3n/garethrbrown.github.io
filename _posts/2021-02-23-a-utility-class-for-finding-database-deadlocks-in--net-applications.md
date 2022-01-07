@@ -3,7 +3,7 @@ public: true
 layout: post
 title: "A Utility Class for Finding Database Deadlocks in .NET / C# Applications"
 date: 2021-02-23 00:00 +0000
-tags: postgresql net-core rdbms
+tags: postgresql .net-core c# rdbms
 ---
 
 Database deadlocks were suspected in a large .NET Core project with around 50 transaction blocks.

@@ -3,7 +3,7 @@ public: true
 layout: post
 title: "Implementing Microsoft.Extensions.Logging.ILogger with NLog"
 date: 2021-02-25 00:00 +0000
-tags: nlog net-core
+tags: nlog .net-core c#
 ---
 
 I’ve designed this `ILogger`implementation to solve an issue I encountered today where the code I was working was wasn’t logging errors when the error occurred in a background thread. It was failing silently because unless you configure NLog specifically to throw exceptions, it won’t.

@@ -3,7 +3,7 @@ public: true
 layout: post
 title: "How to inject Google Adsense In-Article script into your HTML (ASP.NET Core Razor)"
 date: 2019-12-24 00:00 +0000
-tags: adsense netcore aspnet
+tags: google-adsense .net-core asp.net
 ---
 
 This is how I solved the problem of how to inject a Google Adsense In-Article script within the HTML content of blog articles on a site that I manage.

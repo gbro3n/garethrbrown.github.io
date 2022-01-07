@@ -3,7 +3,7 @@ public: true
 layout: post
 title: "Sanitizing HTML in .NET Core"
 date: 2021-02-25 00:00 +0000
-tags: html net-core
+tags: html .net-core c#
 ---
 
 Looking through options for sanitizing HTML, I found my way to the following library:

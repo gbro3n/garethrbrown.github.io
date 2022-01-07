@@ -3,7 +3,7 @@ public: true
 layout: post
 title: "Robust Error Handling in ASP.NET Core"
 date: 2020-07-23 00:00 +0000
-tags: netcore errors
+tags: .net-core error-handling
 ---
 
 Error handling in .NET Core is great, but there are some pitfalls if not properly set up that can result in unexpected behaviour. For example - HTTP status codes that appear incorrect, or some categories of errors not being trapped.
