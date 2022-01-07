@@ -22,5 +22,5 @@ var sanitized = sanitizer.Sanitize(html);
 
 Rick Strahl’s blog provides a good overview of some of the concerns in the following two blog posts:
 
-- https://weblog.west-wind.com/posts/2012/jul/19/net-html-sanitation-for-rich-html-input
-- https://weblog.west-wind.com/posts/2018/Aug/31/Markdown-and-Cross-Site-Scripting
+- [https://weblog.west-wind.com/posts/2012/jul/19/net-html-sanitation-for-rich-html-input](https://weblog.west-wind.com/posts/2012/jul/19/net-html-sanitation-for-rich-html-input)
+- [https://weblog.west-wind.com/posts/2018/Aug/31/Markdown-and-Cross-Site-Scripting](https://weblog.west-wind.com/posts/2018/Aug/31/Markdown-and-Cross-Site-Scripting)
