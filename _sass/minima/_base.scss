@@ -98,7 +98,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /**
  * Links
  */
@@ -141,8 +140,6 @@ blockquote {
   }
 }
 
-
-
 /**
  * Code formatting
  */
@@ -156,6 +153,12 @@ code {
 
 code {
   padding: 1px 5px;
+}
+
+/* GB Modified so that code and pre > code have different sizes */
+
+pre > code {
+    @include relative-font-size(0.8375); 
 }
 
 pre {
