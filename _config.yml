@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Gareth Brown's Web Log
+title: garethbrown.net
 email: gareth.brown@appsoftware.com
 description: >- # this means to ignore newlines until "baseurl:"
   Gareth Brown on software engineering, personal projects and anything I'm learning along the way.
