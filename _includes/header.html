@@ -3,8 +3,10 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
+    
+    <img style="width: 40px; height: 40px; float: left; margin: 0 12px 0 0; position: relative; top: 6px;" src="/assets-site-page/gareth-brown-avatar-round.jpg" alt="Gareth Brown avatar" />
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
+    
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />

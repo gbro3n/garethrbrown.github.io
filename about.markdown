@@ -11,6 +11,7 @@ If you're interested in my professional skills you can [view my CV here](https:/
 Personally, in addition to time with my family, I like to spend time mountain biking, running, and improving my long neglected art skills.
 
 <img src="/assets-site-page/profile-photo.jpg" alt="Gareth Brown" style="width:200px; margin-top: 10px;"/>
+<img src="/assets-site-page/gareth-brown-avatar-round.jpg" alt="Gareth Brown" style="width:200px; margin-top: 10px; margin-left: 10px;"/>
 
 ## Contact Information
 
