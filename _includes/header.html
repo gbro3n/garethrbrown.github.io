@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     
-    <img style="width: 40px; height: 40px; float: left; margin: 0 10px 0 0; position: relative; top: 6px;" src="/assets-site-page/as_icon_only_blue_on_white_with_border.svg" alt="Gareth Brown avatar" />
+    <a href="{{ "/" | relative_url }}"><img style="width: 40px; height: 40px; float: left; margin: 0 10px 0 0; position: relative; top: 6px;" src="/assets-site-page/as-icon.svg" alt="logo" /></a>
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     
     {%- if page_paths -%}

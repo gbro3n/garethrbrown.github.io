@@ -11,7 +11,6 @@ If you're interested in my professional skills you can [view my CV here](https:/
 Personally my interests include mountain biking, trail running, hikng, the outdoors, general tinkering and improving my long neglected art skills.
 
 <img src="/assets-site-page/profile-photo.jpg" alt="Gareth Brown" style="width:200px; margin-top: 10px;"/>
-<img src="/assets-site-page/gareth-brown-avatar-round.jpg" alt="Gareth Brown" style="width:200px; margin-top: 10px; margin-left: 10px;"/>
 
 ## Contact Information
 
