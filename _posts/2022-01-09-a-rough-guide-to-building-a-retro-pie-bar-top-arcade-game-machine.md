@@ -1,10 +1,10 @@
 ---
 public: true
 layout: post
-title: "A Rough Guide to Building a Retro Pie Bar Top Arcade Game Machine"
+title: "A Rough Guide to Building a Retro Pie Bartop Arcade Game Machine"
 date: 2022-01-09 00:00 +0000
 tags: gaming retro-pie arcade
-permalink: /2022/01/09/a-rough-guide-to-building-a-retro-pie-bar-top-arcade-game-machine
+permalink: /2022/01/09/a-rough-guide-to-building-a-retro-pie-bartop-arcade-game-machine
 ---
 
 Over the last few months, working towards an ominous (self-imposed) Christmas deadline, I've been working on building a Retro Pie Bar Top Arcade Game Machine. This is "for the kids", but pretty obviously also for me to satisfy a sense of nostalgia and a fondness for arcade machines which was probably driven by the scarcity of opportunity to play on them in my youth.
