@@ -16,7 +16,7 @@ While I haven't kept close track, I think the machine has cost in all around £4
 ![](/assets/PXL_20211229_104137270.jpg)
 (My eldest playing some old school PAC-MAN)
 
-So, being a rough guide, here are the rough steps to building a Retro Pie Bar Top Arcade Game Machine:
+So, being a rough guide, here are the parts required for building a Retro Pie Bar Top Arcade Game Machine with some information about each. This isn't a step by step guide since the process was more compositional than sequential for me. Maybe next time it would be now I know more about the process. Really I just found myself working on the parts I could until the whole thing came together.
 
 ## Raspberry Pi Computer
 
@@ -89,6 +89,13 @@ These were in the end wired up via the 3.5 mm jack to the HDMI adapter that conn
 
 ![](/assets/Pasted%20image%2020220109222043.png)
 
-The project has been a success. The kids love it (the youngest maybe more than she should!). There were a few bumps along the way with a little troubleshooting required. I'll try to update this post later with more about that. 
+
+## An On / Off Switch
+
+Since the Raspberry Pi doesn't have an on off switch, you have to cut the power manually. You can shut down Retro Pie before this if you want, but I can't really expect my kids to do this. My solution was to add a switched extension lead into the set up as pictured above (with some child safe plug covers) so the machine can simply be powered up / down.
+
+## The Final Result
+
+So the project has been a success. The kids love it (the youngest maybe more than she should!). There were a few bumps along the way with a little troubleshooting required. I'll try to update this post later with more about that. 
 
 If I did it again with more time I'd like to make the cabinet myself, and would research the joystick and buttons a bit more. The screen could do with a surround which I will get around to making to make it look a bit more authentic.
