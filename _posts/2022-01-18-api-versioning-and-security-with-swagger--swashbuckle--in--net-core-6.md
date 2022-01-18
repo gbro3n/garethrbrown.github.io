@@ -8,7 +8,7 @@ tags: swagger .net-core
 
 ## Introduction
 
-This post aims to detail how to implement an OpenAPI (Swagger) configuration in a .NET Core 6 web app that includes two API versioning strategy options (URL / HTTP header) along with basic authentication for access to the Swagger UI. This set up includes configuration to ensure that versioning parameters are forwarded from the Swagger UI in requests to the API.
+This post aims to detail how to implement an OpenAPI (Swagger) configuration in a .NET Core 6 web app that includes two API versioning strategy options (URL / HTTP header) along with Basic authentication for access to the Swagger UI. This set up includes configuration to ensure that versioning parameters are forwarded from the Swagger UI in requests to the API.
 
 Full code for this post can be found on [GitHub](https://github.com/garethrbrown/openapi-swagger-api-versioning-demo):
 
