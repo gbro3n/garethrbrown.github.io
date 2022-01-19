@@ -53,7 +53,7 @@ Api-Version: 1.0
 **URL versioning** causes the API to route to different controller actions based the version included in the path e.g.
 
 ```
-https://somedomain/api/v1.0/endpoint
+https://somedomain.com/api/v1.0/endpoint
 ```
 
 Both strategies have advantages and disadvantages. For example, URL versioning means that a client cannot negate to include a version parameter (in the headers) for example, leaving them susceptible to breaking changes when the default API version progresses.
