@@ -1,7 +1,7 @@
 ---
 public: true
 layout: post
-title: "API Versioning and Security with Swagger (Swashbuckle) in .NET Core 6"
+title: "API Versioning and Basic UI Authentication with OpenAPI (Swagger / Swashbuckle) in .NET Core 6"
 date: 2022-01-18 00:00 +0000
 tags: swagger .net-core
 ---
@@ -14,7 +14,7 @@ Full code for this post can be found on [GitHub](https://github.com/garethrbrown
 
 [https://github.com/garethrbrown/openapi-swagger-api-versioning-demo](https://github.com/garethrbrown/openapi-swagger-api-versioning-demo)
 
-## What we're going be setting up:
+## What we're setting up here
 
 - An OpenAPI / Swagger configuration in `Program.cs`
 - API versioning with an option for switching between URL and HTTP header versioning strategies
@@ -24,14 +24,14 @@ Full code for this post can be found on [GitHub](https://github.com/garethrbrown
 
 ## How it looks
 
-**Basic authentication for the Swagger UI:**
+**Basic authentication for the Swagger UI**
 
 ![Basic authentication for the Swagger UI](/assets/Pasted%20image%2020220118130612.png)
 
-**Version in header in Swagger UI:**
+**Version in header in Swagger UI**
 ![Version in header in Swagger UI](/assets/Pasted%20image%2020220118130459.png)
 
-**Version in path in Swagger UI:**
+**Version in path in Swagger UI**
 ![Version in path in Swagger UI](/assets/Pasted%20image%2020220118130300.png)
 
 ## Configuration
@@ -299,7 +299,7 @@ app.Run();
 
 Basic authentication can be included to protect the Swagger UI from being browsed by unauthorised party. This is a simple and secure mechanism for protecting the Swagger UI providing that the username and password is sent over HTTPS.
 
-This is of course optional. Note that this does not protect the API its self, only the Swagger UI.
+This is of course optional. Note that this does not protect the API its self, only the Swagger UI. This middleware excludes requests from non localhost clients.
 
 **SwaggerAuthenticationMiddleware.cs**
 
@@ -468,3 +468,7 @@ public class RemoveVersionParameterFilter : IOperationFilter
     }
 }
 ```
+
+## Summary
+
+Using the above configuration, you have a versioned API in .NET Core 6 with a Swagger user interface which will forward selected API version information to the API. In addtion, the UI requires basic authentication to browse for non localhost clients.

@@ -8,7 +8,7 @@ $base-font-family: monospace, Roboto, Helvetica, Arial, sans-serif, "Apple Color
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+$base-line-height: 1.8 !default;
 
 $spacing-unit:     30px !default;
 
@@ -23,7 +23,7 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    900px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
