@@ -1,5 +1,5 @@
 # garethrbrown.github.io
 
-Static site for GitHub pages. 
+Static site (Jekyll) for GitHub pages. 
 
 Published at https://garethbrown.net
