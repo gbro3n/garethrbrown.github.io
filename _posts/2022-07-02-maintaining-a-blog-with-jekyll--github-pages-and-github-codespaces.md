@@ -1,7 +1,7 @@
 ---
 public: true
 layout: post
-title: "Maintaining a Blog with Jekyll, GitHub Pages and GitHub CodeSpaces"
+title: "Maintaining a Blog with Jekyll, GitHub Pages and GitHub Codespaces"
 date: 2022-07-02 00:00 +0000
 tags: productivity blogging github-codespaces jekyll
 permalink: /2022/07/01/maintaining-a-blog-with-jekyll-github-pages-codespaces
@@ -13,9 +13,9 @@ These are notes copied from the [README.md](https://github.com/garethrbrown/gare
 
 [Jekyll](https://jekyllrb.com/) and [GitHub pages](https://pages.github.com/) have proven to a be a low friction workflow for curating and publishing posts. Making changes to the blog and debugging before publishing are made easier with this [GitHub Codespaces](https://github.com/features/codespaces) workflow, since the environment now lives in the cloud, and does not need maintaining on PC.
 
-Assuming an existing GitHub repository, create a new workspace.
+Assuming an existing GitHub repository, create a new codespace.
 
-Once started, configure the workspace with the command to create the `devcontainer.json` configuration file:
+Once started, configure the codespace with the command to create the `devcontainer.json` configuration file:
 
 `> Codespaces: Configure Development Container Features`
 
@@ -27,7 +27,7 @@ Once started, configure the workspace with the command to create the `devcontain
 }
 ```
 
-Following workspace container build / rebuild. Jekyll needs to be installed:
+Following codespace container build / rebuild. Jekyll needs to be installed:
 
 ```
 $ gem install jekyll bundler
