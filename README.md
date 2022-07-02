@@ -51,3 +51,11 @@ $ jekyll serve
 ## Deploy
 
 Simply commit to main branch and push to GitHub. GitHub has adapters for building and deploying.
+
+## Git Configuration
+
+Merge strategy configured (defaults to merge):
+
+```
+ git config pull.rebase false 
+```
