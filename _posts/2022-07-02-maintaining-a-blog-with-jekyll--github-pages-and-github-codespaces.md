@@ -4,7 +4,7 @@ layout: post
 title: "Maintaining a Blog with Jekyll, GitHub Pages and GitHub CodeSpaces"
 date: 2022-07-02 00:00 +0000
 tags: productivity blogging github-codespaces jekyll
-permalink: /2022/07/01/managing-code-snippets-in-logseq
+permalink: /2022/07/01/maintaining-a-blog-with-jekyll-github-pages-codespaces
 ---
 
 These are notes copied from the [README.md](https://github.com/garethrbrown/garethrbrown.github.io) of my public blog (the one you are reading now).
