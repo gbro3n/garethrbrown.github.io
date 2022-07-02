@@ -13,6 +13,8 @@ These are notes copied from the [README.md](https://github.com/garethrbrown/gare
 
 [Jekyll](https://jekyllrb.com/) and [GitHub pages](https://pages.github.com/) have proven to a be a low friction workflow for curating and publishing posts. Making changes to the blog and debugging before publishing are made easier with this [GitHub Codespaces](https://github.com/features/codespaces) workflow, since the environment now lives in the cloud, and does not need maintaining on PC.
 
+## Replicating this Workflow
+
 Assuming an existing GitHub repository, create a new codespace.
 
 Once started, configure the codespace with the command to create the `devcontainer.json` configuration file:
