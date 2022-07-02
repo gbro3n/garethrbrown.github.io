@@ -7,6 +7,8 @@ tags: productivity blogging github-codespaces jekyll
 permalink: /2022/07/01/maintaining-a-blog-with-jekyll-github-pages-codespaces
 ---
 
+![Jekyll Blog in GitHub Codespaces](/assets/Pasted%20image%2020220702135940.png)
+
 These are notes copied from the [README.md](https://github.com/garethrbrown/garethrbrown.github.io) of my public blog (the one you are reading now).
 
 [Jekyll](https://jekyllrb.com/) and [GitHub pages](https://pages.github.com/) have proven to a be a low friction workflow for curating and publishing posts. Making changes to the blog and debugging before publishing are made easier with this [GitHub Codespaces](https://github.com/features/codespaces) workflow, since the environment now lives in the cloud, and does not need maintaining on PC.
