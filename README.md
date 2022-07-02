@@ -6,11 +6,11 @@ Static site (Jekyll) for GitHub pages.
 
 ## Development Environment
 
-### Using GitHub CodeSpaces
+### Using GitHub Codespaces
 
-This blog is maintained using GitHub Codespaces. To replicate this block workflow, create a new GitHub workspace for the repository.
+This blog is maintained using GitHub Codespaces. To replicate this block workflow, create a new GitHub codespace for the repository.
 
-Configure the workspace with the command:
+Configure the codespace with the command:
 
 `> Codespaces: Configure Development Container Features`
 
@@ -22,7 +22,7 @@ Configure the workspace with the command:
 }
 ```
 
-Following workspace container build / rebuild. Jekyll needs to be installed:
+Following codespace container build / rebuild. Jekyll needs to be installed:
 
 ```
 $ gem install jekyll bundler
