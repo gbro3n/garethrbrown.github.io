@@ -1,14 +1,20 @@
-# garethrbrown.github.io
+# Gareth Brown Web Log 
+
+https://garethbrown.net (garethrbrown.github.io)
 
 Static site (Jekyll) for GitHub pages. 
-
-Published at https://garethbrown.net
 
 ## Development Environment
 
 ### Using GitHub CodeSpaces
 
-`devcontainer.json` is set up running Ubuntu with Ruby features:
+This blog is maintained using GitHub Codespaces. To replicate this block workflow, create a new GitHub workspace for the repository.
+
+Configure the workspace with the command:
+
+`> Codespaces: Configure Development Container Features`
+
+`devcontainer.json` is set up running Ubuntu with the Ruby feature:
 
 ```json
 "features": {
@@ -16,7 +22,7 @@ Published at https://garethbrown.net
 }
 ```
 
-Following workspace container build / rebuild, Jekyll needs to be installed:
+Following workspace container build / rebuild. Jekyll needs to be installed:
 
 ```
 $ gem install jekyll bundler
@@ -38,6 +44,12 @@ Due to error `cannot load such file -- webrick (LoadError)`, you may need to add
 
 ```
 $ bundle add webrick
+```
+
+To create a new blog template, run:
+
+```
+$ jekyll new <path>
 ```
 
 ## Debug
