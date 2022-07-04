@@ -231,6 +231,11 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
+  /* Prevent strings / URLs with non breaking characters from causing horizontal scrolling. And hide anything that does overflow */
+
+  word-wrap: anywhere;
+  overflow-x: hidden;
+
   h2 {
     @include relative-font-size(2);
 
