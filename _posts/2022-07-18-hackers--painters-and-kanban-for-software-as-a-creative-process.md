@@ -7,7 +7,7 @@ tags: productivity books software-development
 permalink: /2022/07/18/hackers-painters-and-practices-for-software-as-a-creative-process
 ---
 
-I've recently finished [Paul Graham's](http://paulgraham.com/) book [Hackers & Painters - Big Ideas From The Computer Age](https://digtvbg.com/files/books-for-hacking/Hackers%20%26%20Painters%20-%20Big%20Ideas%20From%20The%20Computer%20Age%20by%20Paul%20Graham.pdf). A common theme that runs through the book is viewing software as a creative process, implied by the "Painters" in the book title. 
+In [Paul Graham's](http://paulgraham.com/) book [Hackers & Painters - Big Ideas From The Computer Age](https://digtvbg.com/files/books-for-hacking/Hackers%20%26%20Painters%20-%20Big%20Ideas%20From%20The%20Computer%20Age%20by%20Paul%20Graham.pdf). A common theme that runs through the book is viewing software as a creative process, implied by the "Painters" in the book title. 
 
 There are some incredibly insightful observations in the book that resonate with my experience as a programmer - that is that the most successful projects I've worked on have been shaped and moulded to their best possible form rather than manufactured from a prescribed design. And while I know that software is still also a engineering process requiring a solid foundation, sound principles and well defined interfaces, it seems to me that the environments where projects thrive embrace the creative nature of software development. 
 
