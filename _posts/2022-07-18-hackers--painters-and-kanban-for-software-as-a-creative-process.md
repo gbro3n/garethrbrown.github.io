@@ -9,7 +9,7 @@ permalink: /2022/07/18/hackers-painters-and-practices-for-software-as-a-creative
 
 In [Paul Graham's](http://paulgraham.com/) book [Hackers & Painters - Big Ideas From The Computer Age](https://digtvbg.com/files/books-for-hacking/Hackers%20%26%20Painters%20-%20Big%20Ideas%20From%20The%20Computer%20Age%20by%20Paul%20Graham.pdf). A common theme that runs through the book is viewing software as a creative process, implied by the "Painters" in the book title. 
 
-There are some incredibly insightful observations in the book that resonate with my experience as a programmer - that is that the most successful projects I've worked on have been shaped and moulded to their best possible form rather than manufactured from a prescribed design. And while I know that software is still also a engineering process requiring a solid foundation, sound principles and well defined interfaces, it seems to me that the environments where projects thrive embrace the creative nature of software development. 
+There are some incredibly insightful observations in the book that resonate with my experience as a programmer - that is that the most successful projects I've worked on have been shaped and moulded to their best possible form rather than manufactured from a prescribed design. And while software development is also a engineering process requiring a solid foundation, sound principles and well defined interfaces, it seems to me that the environments where projects thrive embrace the creative nature of software development. 
 
 These are a few quotes from the essays in the book that allude to this idea:
 
@@ -45,7 +45,9 @@ If software really is a creative process, what can we learn from companies runni
 
 Looking at Pixar's practices:
 
-**Kanban** aligns well with creative flow and is accepting of the fact that teams need to be able to change direction, even during the time that would span a typical scrum sprint.
+### Kanban 
+
+Kanban aligns well with creative flow and is accepting of the fact that teams need to be able to change direction, even during the time that would span a typical scrum sprint.
 
 Some key features of Kanban as compared with Scrum are:
 
@@ -56,7 +58,9 @@ Some key features of Kanban as compared with Scrum are:
 - Limits on concurrent work in progress
 - Collective responsibility for goals
 
-**Andon** allows a team to stop and reassess.
+### Andon 
+
+Andon allows a team to stop and reassess.
 
 From the article linked above:
 
@@ -67,23 +71,29 @@ This reminds me of a quote:
 > If the ladder is not leaning against the right wall, every step we take just gets us to the wrong place faster. - Stephen R. Covey
 
 ## Kanban vs Scrum for Creative Process
-There are situations where Scrum is a more optimal choice than Kanban. According to the [Agile Alliance](https://resources.scrumalliance.org/Article/scrum-vs-kanban#:~:text=If%20the%20team%20is%20simply,with%20some%20expertise%2C%20use%20kanban.&text=Scrum%20has%20active%20stakeholder%20and,feedback%2Fengagement%2C%20use%20scrum.):
+I don't want to over generalise, there are situations where Scrum is a more optimal choice than Kanban. According to the [Agile Alliance](https://resources.scrumalliance.org/Article/scrum-vs-kanban#:~:text=If%20the%20team%20is%20simply,with%20some%20expertise%2C%20use%20kanban.&text=Scrum%20has%20active%20stakeholder%20and,feedback%2Fengagement%2C%20use%20scrum.):
 
 > If the team is simply a group of individuals with some expertise, use Kanban.
 
 > If the work is innovative, creative, or new and requires stakeholder and customer feedback/engagement, use Scrum.
 
-While I would disagree with the use of the word 'creative' in the "use scrum" statement (in that it implies that Kanban is not suited to creative work), I agree Scrum should be considered where frequent reporting to stakeholders and product owners is required. 
+While I would disagree with the use of the word 'creative' in the "use scrum" statement (because it implies that Kanban is not suited to creative work), I agree Scrum should be considered where frequent reporting to stakeholders and product owners is required. 
 
 However I believe that Scrum comes at a cost to the creative nature of software development in the following ways:
 
-1. Commitment provides clarity of goals, and key metrics that indicate whether a team is being successful in their short term goals. However even during short sprint cycles, new information, discussions or realisations can invalidate the initial goals of the sprint within the first few days.  Repeated failure to meet sprint goals are bad for team morale. A burn down chart that repeatedly doesn't burn down reduces faith in the process. Often this happens not because Scrum is not properly organised or because of team competence, but because the project is exploratory in nature, and therefore requires a greater degree of creative process.
+### Commitment
 
-2. Ceremony can be valuable to the product owner, giving them confidence that their goals are being met and keeping them in the loop and providing an opportunity to provide important feedback. The cost of ceremony is the regular break of flow state. More frequent scheduled stops discourage team members from self organising adhoc communication, which is likely to be more focused and timely.
+Commitment provides clarity of goals, and key metrics that indicate whether a team is being successful in their short term goals. However even during short sprint cycles, new information, discussions or realisations can invalidate the initial goals of the sprint within the first few days.  Repeated failure to meet sprint goals are bad for team morale. A burn down chart that repeatedly doesn't burn down reduces faith in the process. Often this happens not because Scrum is not properly organised or because of team competence, but because the project is exploratory in nature, and therefore requires a greater degree of creative process.
 
-I feel that Kanban fits better with CI/CD. Commonly, Scrum and CI/CD are combined. But for delivery to be continuous, the scheduling of releases needs to be reduced. Also, the collective responsibility and reduced focus on roles also fits better with modern DevOps practice.
+### Ceremony
 
-## Conclusions?
+Ceremony can be valuable to the product owner, giving them confidence that their goals are being met and keeping them in the loop and providing an opportunity to provide important feedback. The cost of ceremony is the regular break of flow state. More frequent scheduled stops discourage team members from self organising adhoc communication, which is likely to be more focused and timely.
+
+## Kanban and CI/CD / DevOps
+
+Kanban fits better with CI/CD. Commonly, Scrum and CI/CD are combined. But for delivery to be continuous, the scheduling of releases needs to be reduced. Also, the collective responsibility and reduced focus on roles also fits better with modern DevOps practice.
+
+## Conclusions
 
 The reality may be that Kanban is more likely to be acceptable to your organisation if you own your own product, and so are less accountable to external stakeholders. But I feel that Kanban is more closely aligned with the creative nature of software development, and that is the environment that projects are most likely to reach their potential. Kanban likely requires more trust in the team from external stakeholders since fewer meetings, reduced commitment to short term goals, limiting work in progress and an openness to change in direction can look disorganised to those not close to the low-level details of a project.
 
