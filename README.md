@@ -48,6 +48,12 @@ $ bundle add webrick
 
 To create a new blog template, run:
 
+In case of error like `You have already activated public_suffix 5.0.0, but your Gemfile requires public_suffix 4.0.7. Prepending ``bundle exec`` to your command may solve this.`, run:
+
+```
+$ bundle update
+```
+
 ```
 $ jekyll new <path>
 ```
@@ -70,4 +76,13 @@ Merge strategy configured (defaults to merge):
 
 ```
  git config pull.rebase false 
+```
+
+## Notes on Local Install
+
+Due to issues running `gem install jekyll bundler`, ruby and Gem were installed with the following command. However later on, running `bundle install` fails, even with `bundle update` workaround.
+
+```bash
+$ sudo apt-get install ruby-full
+$ sudo apt install jekyll
 ```
