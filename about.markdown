@@ -12,7 +12,7 @@ If you're interested in knowing more about the types of project I work on, you c
 
 ## Contact Information
 
-Email: <a href="mailto:gareth.brown@appsoftware.com">gareth.brown@appsoftware.com</a>
+Email: <a href="mailto:gareth.brown@appsoftware.com">blog@g9n.com</a>
 
 Twitter: <a href="https://twitter.com/g9ncom">@g9ncom</a>
 
