@@ -14,7 +14,7 @@ If you're interested in knowing more about the types of project I work on, you c
 
 Email: <a href="mailto:gareth.brown@appsoftware.com">gareth.brown@appsoftware.com</a>
 
-Twitter: <a href="https://twitter.com/gbro3n">@gbro3n</a>
+Twitter: <a href="https://twitter.com/g9ncom">@g9ncom</a>
 
 
 
