@@ -20,7 +20,10 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+
+    /* GB modified from $grey-color-dark*/
+
+    color: $text-color;
   }
 }
 
